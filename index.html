@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Bus Route Finder Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Bus Route Finder</h1>
+      <p class="sub">Type: <b>from Shamshabad to Secunderabad</b> (optional: <b>(fastest)</b>, <b>(cheapest)</b>, <b>(fewest stops)</b>)</p>
+    </header>
+
+    <main id="chat" class="chat">
+      <div class="msg bot">
+        Hi! Tell me your trip like: <b>from Shamshabad to Secunderabad</b>. Add a preference in brackets if you want.
+      </div>
+    </main>
+
+    <footer class="input-row">
+      <input id="message" type="text" placeholder="e.g., from Shamshabad to Secunderabad (cheapest)" />
+      <button id="send" aria-label="Send message">Send</button>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
